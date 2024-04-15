@@ -1,0 +1,324 @@
+
+:root {
+    --primary-color: #1A4B84;
+    --chathams_blue: #1A4B84;
+    --tamarillo: #991E14;
+    --yellow_sea: #FEAD06;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 60vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.mapboxgl-ctrl-geocoder {
+    min-width: 100%!important;
+}
+
+#menu {
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: -90px;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* NAVBAR STYLING STARTS */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: teal;
+    color: #fff;
+    padding: -30px;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+
+/* LOGO */
+
+.logo {
+    font-size: 32px;
+    margin-left: 15px;
+}
+
+
+/* NAVBAR MENU */
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+
+/* DROPDOWN MENU */
+
+.services {
+    position: relative;
+}
+
+/* Header Styles
+  -------------------------------------------------- */
+
+  header .bg-gradient {
+    /* background: rgb(216, 216, 216); */
+
+}
+
+body {
+    background: rgb(53,92,173);
+    
+    background-image: url("../img/bg-repeat.png"); /* fallback */
+    background-image: url("../img/bg-repeat.png"), linear-gradient(rgba(53,92,173,1) 0%, rgba(18,36,123,1) 100%); /* W3C */
+}
+
+
+header {
+    background: #355cad url(../img/header-bg.png) no-repeat;
+    background-size: auto;
+    height: 120px;
+}
+
+header .navbar {
+    padding: 20px 0 0;
+}
+
+header .navbar-brand {
+    padding: 0;
+    z-index: 1;
+    width: 213px;
+    height: 109px;    
+    border-radius: 0;
+    background: transparent;
+}
+
+header .navbar-brand img {
+    width: 70px;
+    margin-top: 25px;
+}
+
+img {
+    max-width: 100%;
+}
+
+header h3 {
+    font: normal normal 600 18px/27px Oswald;
+    color: #fff;
+}
+
+header h4 {
+    font: normal normal 600 18px/28px Oswald;
+    letter-spacing: 0.36px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+header p {
+    font: 600 12px/15px Poppins;
+    letter-spacing: 0.24px;
+    color: #fff;
+}
+
+.ReactTitle {
+    /* background-color: #838383; */
+    height: 50px;
+    font: normal normal 600 19px/27px Oswald;
+    letter-spacing: 0.38px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.ReactTitle img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.ReactTitle h3 {
+    color: #7EFBFD;
+}
+
+
+.link {
+    background-color: rgba(0, 0, 0, 0.09);
+    font: normal 11px/15px Poppins;
+    letter-spacing: 0.24px;
+   
+    padding: 5px 10px;
+    margin-top: 18px;
+
+}
+
+.link a {
+    color: #7EFBFD;
+    font: normal 11px/15px Poppins;
+}
+
+/* Sticky footer styles
+  -------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 48px;
+    line-height: 50px;
+    /* Vertically center the text there */
+    background: transparent linear-gradient(180deg, #355CAD 0%, #0E1E76 100%) 0% 0% no-repeat padding-box;
+}
+
+.leftCopyright {
+   color: #7EFBFD;
+    background: transparent url("../img/copyrightLeft.png") no-repeat left center;
+    background-size: 420px;
+    width: 420px;
+}
+
+
+.rightFooter {
+    background: transparent url("../img/footerRight.png") no-repeat right center;    
+    background-size: 420px;
+    width: 420px;
+}
+/* Custom page CSS
+  -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body>.container {
+    padding: 60px 15px 0;
+}
+
+.footer>.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.footer-dark {
+    background-color: var(--primary-color) ;
+    color: #fff;
+}
+
+.toggle-currency {
+    font-size: 20px;
+}
+
+footer {
+    font: normal normal 600 12px/19px Oswald;
+    letter-spacing: 0.24px;
+    color: #7EFBFD;
+}
+
+.theme-switch {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 0.5rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.theme-switch-chathams_blue {
+    background-color: var(--chathams_blue);
+}
+
+.theme-switch-chathams_blue:hover {
+  box-shadow: 2px 2px 2px var(--chathams_blue);
+}
+
+.theme-switch-tamarillo {
+    background-color: var(--tamarillo);
+}
+
+.theme-switch-tamarillo:hover {
+  box-shadow: 2px 2px 2px var(--tamarillo);
+}
+
+.theme-switch-yellow_sea {
+    background-color: var(--yellow_sea);
+}
+
+.theme-switch-yellow_sea:hover {
+  box-shadow: 2px 2px 2px var(--yellow_sea);
+}
+
+#details{
+    display: flex !important;
+    width: 100vw;
+    max-width: 100%;
+    border: 1px solid var(--primary-color);
+    padding: 8px;
+    background: #e4e4e4;
+}
+
+#details p, #details h6{
+    margin-bottom: 0;
+}
+
+.iss{
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background-repeat: "no-repeat";
+    background-image: url('../img/iss.png');
+}
+
+button.btn {
+    color: #fff !important;
+    background-color: var(--primary-color) !important;
+}
+.badge{
+    font-size: 16px!important;
+}
